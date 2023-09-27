@@ -1,0 +1,39 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:bibo="http://purl.org/ontology/bibo/"
+      xmlns:dcterms="http://purl.org/dc/terms/"
+      xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+
+<foaf:Person rdf:ID="me">
+    <foaf:name xml:lang="en">Nathan Ruello</foaf:name>
+    <foaf:givenname>Nathan</foaf:givenname>
+    <foaf:family_name>Ruello</foaf:family_name>
+    <foaf:title>Etudiant</foaf:title>
+    <foaf:nick>Honguez</foaf:nick>
+    <foaf:mbox rdf:resource="nathan.ruello@etudiant.univ-lr.fr"/>
+    <foaf:homepage rdf:resource="https://honguez.github.io/"/>
+</foaf:Person>
+
+
+  <!-- FRIENDS -->
+
+  <foaf:knows>
+    <foaf:Person rdf:about="https://p0lycarpio.github.io/foaf.rdf">
+        <foaf:name>Arsène Reymond</foaf:name>
+        <foaf:mbox_sha1sum>64d35c94674fda5759a5ac685d20769cda55c0da</foaf:mbox_sha1sum>
+        <rdfs:seeAlso rdf:resource="https://p0lycarpio.github.io/"/>
+    </foaf:Person>
+
+    <foaf:Person rdf:about="https://turbomoai.github.io/foaf.rdf">
+        <foaf:name>Fabien Frappier</foaf:name>
+        <foaf:mbox_sha1sum>e19032a883f88e13d936eb7a36547596c724f972</foaf:mbox_sha1sum>
+        <rdfs:seeAlso rdf:resource="https://turbomoai.github.io" />
+    </foaf:Person>
+  </foaf:knows>
+
+</rdf:RDF>
